@@ -1,0 +1,198 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>ClassicTanks - Рейтинги</title>
+	<link rel="icon" href="..//assets/images/zin.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../Rayting/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="rayting.css">
+	<!--<script src="/public/functions/functions.js"></script>-->
+	<style>
+		td {
+			width: fit-content;
+		}
+	</style>
+</head>
+
+<body>
+
+
+
+	<div class="main">
+
+		<div class="logo" onclick="location.href=''"></div>
+
+		<div class="search container">
+			<div class="label" style="vertical-align: middle">
+				<p style="font-weight: bold;">Найти профиль игрока</p>
+			</div>
+			<div class="form">
+				<form class="form" style="vertical-align: middle" method="POST" action="/searchplayer">
+					<input class="input" name="username" type="text" placeholder="Введите ник">
+					<input type="submit" value="Поиск" class="submit_button">
+				</form>
+			</div>
+		</div>
+
+
+
+		<!-- <div class="container container_2">
+
+			<div class="container_2_left container_2_cards">
+				<span>Online players: <p style="font-weight: bold">13</p></span>
+			</div>
+
+			<div class="container_2_right container_2_cards">
+				<span style="float: right">Max. online: <p style="font-weight: bold">36</p></span>
+			</div>
+
+
+		</div> -->
+
+		<div class="wrapper">
+
+			<div class="container left">
+				<div style="margin: 10px 0px">
+					<div style="display: inline-block">
+
+						<div style="font-size: 20px; margin: 2px">Топ-100 игроков</div>
+						<div style="font-size: 14px; color: gray; margin: 2px">по заработанному опыту</div>
+
+					</div>
+
+					<div style="display: flex; justify-content:space-between;">
+
+						<div style="font-size: 14px; color: gray; margin: 2px">Рейтинг обнулится через</div>
+						<div style="font-size: 20px; margin: 2px">3д 8ч 3м</div>
+
+					</div>
+
+
+					<table>
+
+						<tr>
+
+							<td style="text-align: left; width: 20px;">1</td>
+							<td style="text-align: left;"><a class="link_to_user"
+									href="https://ratings.ranked-rtanks.online/user/Devla">
+									<img src="https://i.imgur.com/rO3Hs5f.png"
+										style="width: 20px; vertical-align: middle; margin: 0px 5px">Vzgona</a></td>
+
+							<td style="text-align: right;">11 375</td>
+						</tr>
+						</tr>
+
+					</table>
+				</div>
+			</div>
+
+			<div class="container right">
+				<div style="margin: 10px 0px">
+					<div style="display: inline-block">
+						<div style="font-size: 20px; margin: 2px">Топ-100 игроков</div>
+						<div style="font-size: 14px; color: gray; margin: 2px">по заработанным кристаллам</div>
+					</div>
+
+					<div style="display: flex; justify-content: space-between;">
+
+						<div style="font-size: 14px; color: gray; margin: 2px">Рейтинг обнулится через</div>
+						<div style="font-size: 20px; margin: 2px">3д 8ч 3м</div>
+
+					</div>
+
+					<table>
+
+						<tr>
+							<td style="text-align: left; width:20px;">1</td>
+							<td style="text-align: left;"><a class="link_to_user"
+									href=".//user/user.html"><img
+										src="https://i.imgur.com/UWup9qJ.png"
+										style="width: 20px; vertical-align: middle; margin: 0px 5px">Owner</a></td>
+							<td style="text-align: right;">36 862</td>
+						</tr>
+						</tr>
+
+					</table>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="wrapper">
+
+			<div class="container left">
+				<div style="margin: 10px 0px">
+					<div style="display: inline-block">
+						<div style="font-size: 20px; margin: 2px">Топ-100 игроков</div>
+						<div style="font-size: 14px; color: gray; margin: 2px">по пойманным голдам</div>
+					</div>
+
+					<div style="display: flex; justify-content: space-between;">
+
+						<div style="font-size: 14px; color: gray; margin: 2px">Рейтинг обнулится через</div>
+						<div style="font-size: 20px; margin: 2px">3д 8ч 3м</div>
+
+					</div>
+
+					<table>
+
+						<tr>
+							<td style="text-align: left; width: 20px;">1</td>
+							<td style="text-align: left;"><a class="link_to_user"
+									href="https://ratings.ranked-rtanks.online/user/Spy"><img
+										src="https://i.imgur.com/UWup9qJ.png"
+										style="width: 20px; vertical-align: middle; margin: 0px 5px">Awy</a></td>
+							<td style="text-align: right;">33</td>
+						</tr>
+						</tr>
+
+					</table>
+
+				</div>
+			</div>
+
+			<div class="container right">
+				<div style="margin: 10px 0px">
+					<div style="display: inline-block">
+						<div style="font-size: 20px; margin: 2px">Топ-100 игроков</div>
+						<div style="font-size: 14px; color: gray; margin: 2px">по убийствам</div>
+					</div>
+
+					<div style="display: flex; justify-content: space-between;">
+
+						<div style="font-size: 14px; color: gray; margin: 2px">Рейтинг обнулится через</div>
+						<div style="font-size: 20px; margin: 2px">3д 8ч 3м</div>
+
+					</div>
+
+					<table>
+
+						<tr>
+							<td style="text-align: left; width: 20px;">1</td>
+							<td style="text-align: left;"><a class="link_to_user"
+									href="https://ratings.ranked-rtanks.online/user/I.7"><img
+										src="https://i.imgur.com/UWup9qJ.png"
+										style="width: 20px; vertical-align: middle; margin: 0px 5px">FlyLow</a></td>
+							<td style="text-align: right;">1 263</td>
+						</tr>
+						</tr>
+
+					</table>
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+	</div>
+
+</body>
+<script>
+</script>
+
+</html>

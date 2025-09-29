@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Quadrat';
+    src: url('../fonts/QuadratGroteskNewW03-Rg.woff2') format ('woff2'),
+        url('../fonts/QuadratGroteskNewW03-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'QuadratBold';
+    src: url('../fonts/QuadratGroteskNewW03-Bold.woff2') format('woff2'),
+        url('../fonts/QuadratGroteskNewW03-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+    transition: 0.2s;
+}
+
+html{
+    margin: 0px;
+	scroll-behavior: smooth;
+	font-size: 14px;
+}
+
+body{
+	margin: 0px;
+	font-family: Arial;	
+	color: white;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0.85) 100%), url('../images/bg.png');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+td, th{
+    border: 1px solid rgba(255,255,255,0.1);
+    border-collapse: collapse;
+    padding: 5px 10px;
+    text-align: left;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+th{
+    background: rgba(0,255,0,0.75);
+    color: #0d220e;
+}
+
+tr{
+    background: transparent;
+    transition: 0.25s;
+}
+
+tr.clan_row:hover{
+    background: rgba(255,255,255,0.1);
+}
+
+.logo_table{
+    width: 0px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.clan_profile_main{
+	border: none;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+	height: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0,0,0,1);
+	border-top: 1px solid green;
+}
+::-webkit-scrollbar-thumb {
+	background: lime
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container {
+	flex: 1;
+	box-sizing: border-box;
+}
+
+
+.faq{ 
+    padding: 10px 30px;
+    text-align: left;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(0, 255, 0, 0.25) 0%, rgba(0,255,0, 0) 90%);
+    font-family: Arial;
+    /* border: 1px solid white; */
+}
+
+.faq_title{
+    font-size: 18px;
+    font-family: QuadratBold;
+    padding: 10px 0px;
+}
+
+.faq_section{
+    padding: 10px 10px;
+    /* border-bottom: 1px solid rgba(255,255,255,0.5); */
+    margin: 10px 0px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
+}
+
+.faq_sec_title{
+    font-weight: bold;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+.faq_sec_desc{
+    padding: 5px 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s;
+    height: 0px;
+    line-height: 1.5;
+}

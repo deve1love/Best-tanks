@@ -1,0 +1,291 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ClassicTanks - Кланы</title>
+  <link rel="icon" href="../assets/images/zin.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href= "../clans/style.css" rel="stylesheet" type="text/css" />
+  <style>
+	html, body{
+		overflow-y: auto; overflow-x: none; 
+	}
+  </style>
+</head>
+
+<body>
+    
+    <div style="width: 75vw; margin: 50px auto; border-radius: 10px;">
+        <div style="margin: auto; transform: translateY(4px); width: fit-content; padding: 5px 50px; background: #343434; font-weight: bold; border-radius: 5px 5px 0px 0px; border: 3px solid #545454; border-bottom: 4px solid #545454; box-shadow: 0px 0px 5px black inset; color: #cfcfcf">КЛАНЫ</div>
+        
+        <div style=" border-top: 10px solid #545454; border-radius: 5px; padding: 5px; background: #545454">
+            <div style="">
+                <button onclick="location.href='/'" onmouseover="this.style.boxShadow = '0px 0px 5px white inset'" onmouseout="this.style.boxShadow = '0px 0px 0px white inset'" style="transition: 0.1s; cursor:pointer; transform: translate(0px, -5px); padding: 7px; color: white; background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(61,61,61,1) 100%); border-radius: 5px; outline: none; border: 1px solid rgba(255,255,255,0.4)">&#11207; Кланы</button>
+            </div>
+
+			<div style="background: #0d220e; padding: 5px; border-radius: 3px; box-shadow: 0px 0px 15px black inset;">
+
+				
+
+			  <table>
+				<tr>
+					<td rowspan="5" class="clan_profile_main"><img src="../clans/images/Owner.png" class="logo" style="width: 100px; height: 100px"></td>
+					<td class="clan_profile_main" style="font-size: 20px; font-weight: bold">Staff Administrator</td>
+				<tr>
+				<tr>
+					<td class="clan_profile_main"><font style="color: gray">Основатель:</font> <a target="_blank" href="https://ratings.ranked-rtanks.online/user/Luv"><img src="https://i.imgur.com/rO3Hs5f.png" style="vertical-align: middle; width: 20px; margin-right: 3px; margin-bottom: 2px;">Vzgona</a></td>
+				</tr>
+				<tr>
+					<td class="clan_profile_main"><font style="color: gray">Дата создания:</font> 1 авг. 2025 г.</td>
+				</tr>
+				<tr>
+					<td class="clan_profile_main"><font style="color: gray">Тэг клана:</font> [STAFF]</td>
+				</tr>				
+			  </table>
+			</div>
+		</div>
+
+		<div style="background: #0d220e; margin-top: 15px; border-radius: 5px; table-layout: fixed; border: 5px solid #545454; box-shadow: 0px 0px 15px black inset; padding: 10px">
+			<div style="display: inline-block; padding: 10px; border: 2px solid rgba(0,255,0,0.25); background: rgba(0,255,0,0.15); border-radius: 5px; width: 150px; height: 120px; text-align: center; vertical-align: top;">
+				<div>
+					Игроков в клане
+				</div>
+				<div>
+					<img src="../clans/images/clan_users.png" style="width: 65px; margin: 10px;">
+				</div>
+				<div style="font-size: 18px; font-weight: bold">
+					6/21
+				</div>
+			</div>
+			<div style="display: inline-block; margin-left: 10px; padding: 10px; border: 2px solid rgba(0,255,0,0.25); background: rgba(0,255,0,0.15); border-radius: 5px; width: 150px; height: 120px; text-align: center; vertical-align: top;">
+				<div>
+					Уничтожено танков
+				</div>
+				<div>
+					<img src="../clans/images/kills.png" style="width: 65px; margin: 10px;">
+				</div>
+				<div style="font-size: 18px; font-weight: bold">
+					192 715
+				</div>
+
+			</div>
+			<div style="display: inline-block; margin-left: 10px; padding: 10px; border: 2px solid rgba(0,255,0,0.25); background: rgba(0,255,0,0.15); border-radius: 5px; width: 150px; height: 120px; text-align: center; vertical-align: top;">
+				<div>
+					Подбито танков
+				</div>
+				<div>
+					<img src="../clans/images/deaths.png" style="width: 65px; margin: 10px;">
+				</div>
+				<div style="font-size: 18px; font-weight: bold">
+					176 777
+				</div>
+
+			</div>
+			<div style="display: inline-block; margin-left: 10px; padding: 10px; border: 2px solid rgba(0,255,0,0.25); background: rgba(0,255,0,0.15); border-radius: 5px; width: 150px; height: 120px; text-align: center; vertical-align: top;">
+				<div>
+					У/П клана
+				</div>
+				<div>
+					<img src="../clans/images/Clan_kd.png" style="width: 65px; margin: 10px;">
+				</div>
+				<div style="font-size: 18px; font-weight: bold">
+					1.09
+				</div>
+
+			</div>
+
+		</div>
+
+		<div style="background: #0d220e; max-height: 300px; margin-top: 15px; border-radius: 5px; overflow-y: auto; overflow-x: none; table-layout: fixed; border: 5px solid #545454; box-shadow: 0px 0px 15px black inset; padding: 10px">
+
+			<textarea id="inpText" style="display: none"></textarea>
+
+			<div style="width: 100%; overflow-y: auto; overflow-x: none;" id="desc"></div>
+
+		</div>
+
+        <div style="background: #0d220e; max-height: 350px; margin-top: 15px; border-radius: 5px; overflow-y: auto; overflow-x: none; table-layout: fixed; border: 5px solid #545454; box-shadow: 0px 0px 15px black inset;">
+            <table style="width: 100%;">
+                <tr>
+                    <th class="logo_table">
+                        Ник
+                    </th>
+                    <th>
+                        Ранг
+                    </th>
+                    <th>
+                        Опыт
+                    </th>
+                    <th>
+                        Убийства
+                    </th>
+                    <th>
+                        Подбит
+                    </th>
+                    <th>
+                        Время в клане
+                    </th>
+                </tr>
+
+                
+                <tr class="clan_row">
+                    <td style="font-weight: bold; width: 15%;">
+                        <a target="_blank" href="https://ratings.ranked-rtanks.online/user/skillish"><img src="https://i.imgur.com/rO3Hs5f.png" style="vertical-align: middle; width: 20px; margin-right: 5px; margin-bottom: 2px;">Vzgona</a>
+                    </td>
+                    <td>
+                        Главнокомандующий
+                    </td>
+                    <td>
+                        5 600 595
+                    </td>
+                    <td>
+                        17 374
+                    </td>
+                    <td>
+                        19 927
+                    </td>
+                    <td>
+                        1d 2h
+                    </td>
+                </tr>
+                
+                <tr class="clan_row">
+                    <td style="font-weight: bold; width: 15%;">
+                        <a target="_blank" href="https://ratings.ranked-rtanks.online/user/Luv"><img src="https://i.imgur.com/rO3Hs5f.png" style="vertical-align: middle; width: 20px; margin-right: 5px; margin-bottom: 2px;">Owner</a>
+                    </td>
+                    <td>
+                        Главнокомандующий
+                    </td>
+                    <td>
+                        1 606 622
+                    </td>
+                    <td>
+                        18 607
+                    </td>
+                    <td>
+                        17 786
+                    </td>
+                    <td>
+                        1d 2h
+                    </td>
+                </tr>
+                
+                <tr class="clan_row">
+                    <td style="font-weight: bold; width: 15%;">
+                        <a target="_blank" href="https://ratings.ranked-rtanks.online/user/Mr_wilz"><img src="https://i.imgur.com/rO3Hs5f.png" style="vertical-align: middle; width: 20px; margin-right: 5px; margin-bottom: 2px;">Awy</a>
+                    </td>
+                    <td>
+                        Командир 
+                    </td>
+                    <td>
+                        1 637 267
+                    </td>
+                    <td>
+                        13 264
+                    </td>
+                    <td>
+                        11 557
+                    </td>
+                    <td>
+                        1d 2h
+                    </td>
+                </tr>
+                
+                <tr class="clan_row">
+                    <td style="font-weight: bold; width: 15%;">
+                        <a target="_blank" href="https://ratings.ranked-rtanks.online/user/R3DBuLL"><img src="https://i.imgur.com/sppjRis.png" style="vertical-align: middle; width: 20px; margin-right: 5px; margin-bottom: 2px;">FlyLow</a>
+                    </td>
+                    <td>
+                        Командир 
+                    </td>
+                    <td>
+                        892 315
+                    </td>
+                    <td>
+                        28 682
+                    </td>
+                    <td>
+                        17 157
+                    </td>
+                    <td>
+                        1d 2h
+                    </td>
+                </tr>
+                
+                <tr class="clan_row">
+                    <td style="font-weight: bold; width: 15%;">
+                        <a target="_blank" href="https://ratings.ranked-rtanks.online/user/RTL"><img src="https://i.imgur.com/4us1vuE.png" style="vertical-align: middle; width: 20px; margin-right: 5px; margin-bottom: 2px;">999</a>
+                    </td>
+                    <td>
+                        Офицер
+                    </td>
+                    <td>
+                        607 352
+                    </td>
+                    <td>
+                        11 908
+                    </td>
+                    <td>
+                        9 088
+                    </td>
+                    <td>
+                        1d 2h
+                    </td>
+                </tr>
+                
+                <tr class="clan_row">
+                    <td style="font-weight: bold; width: 15%;">
+                        <a target="_blank" href="https://ratings.ranked-rtanks.online/user/Ravenn"><img src="https://i.imgur.com/rO3Hs5f.png" style="vertical-align: middle; width: 20px; margin-right: 5px; margin-bottom: 2px;">Lime</a>
+                    </td>
+                    <td>
+                        Сержант
+                    </td>
+                    <td>
+                        2 165 959
+                    </td>
+                    <td>
+                        102 880
+                    </td>
+                    <td>
+                        101 262
+                    </td>
+                    <td>
+                        1d 2h
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+
+</body>
+
+<script>
+
+	window.onload = function(){
+	
+		var rawContent = document.getElementById('inpText').value;
+		
+		document.getElementById('desc').innerHTML = `${rawContent.replace(/\n/g, '<br>')}`
+	} 
+
+    function filterClans(x){
+        let clans = document.getElementsByClassName('clan_row');
+
+        for(var i = 0; i < clans.length; i++){
+            clans[i].style.display = "none";
+        }
+
+        if(x.value.length < 1) {
+            for(var i = 0; i < clans.length; i++){
+                clans[i].style.display = "table-row";
+            }
+        } else {
+            for(var i = 0; i < clans.length; i++){
+                if(clans[i].id.toLowerCase().includes(x.value.toLowerCase())) {
+                    clans[i].style.display = "table-row";
+                }
+            }
+        }
+    }
+</script>
+</html>

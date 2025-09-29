@@ -1,0 +1,21 @@
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate_card {
+    margin: 0 30px;
+}
+.donate_cards {
+    margin-top: 30px;
+    display: flex;
+}
+.bg-primary {
+    padding-top: 50px;
+}
+.samp {
+    margin-bottom: 30px;
+}
+
+

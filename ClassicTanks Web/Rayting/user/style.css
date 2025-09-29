@@ -1,0 +1,180 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+/* Контейнер */
+.main {
+    width: 100%;
+    max-width: 97%;
+    margin:0 auto;
+    padding: 20px;
+
+    background-image: url('/Russian\ Locale/assets/images/rating_background.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+/* Лого */
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url(/Russian\ Locale/assets/images/classictanks.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+
+
+    text-align: center;
+    margin: 0 auto 20px auto;
+    cursor: pointer;
+}
+
+/* Поиск */
+.search.container {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.search .input {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.submit_button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0078ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit_button:hover {
+    background-color: #005fcc;
+}
+
+/* Блоки контейнеры */
+.container {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+th,
+td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    text-align: left;
+    color: #66aaff;
+}
+
+/* Прогрессбар */
+.rank_line {
+    position: relative;
+    background: #333;
+    border-radius: 10px;
+    height: 18px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.inner_rank_line {
+    background: linear-gradient(90deg, #4caf50, #81c784);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.text_xp {
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Заголовки */
+.title_container {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+/* Гараж */
+.garage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.garage_item {
+    background: #1b1b1b;
+    border-radius: 12px;
+    width: 220px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.garage_item:hover {
+    transform: scale(1.03);
+}
+
+.garage_image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.title_garage_text {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.bottom_garage_text table {
+    font-size: 14px;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .garage {
+        justify-content: center;
+    }
+
+    .garage_item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .garage_item {
+        width: 100%;
+    }
+}

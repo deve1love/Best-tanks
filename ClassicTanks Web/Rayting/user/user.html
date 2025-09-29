@@ -1,0 +1,3015 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Профиль — Devla</title>
+  <link rel="icon" href="/public/images/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href= "../user/style.css" rel="stylesheet" type="text/css" /> -->
+  <link rel="stylesheet" href="style.css">
+  <!--<script src="/public/functions/functions.js"></script>-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+
+
+<div class="main">
+
+    <div class="logo" onclick="location.href='/'"> </div>
+
+    <div class="search container">
+        <div class="label" style="vertical-align: middle">
+			<p style="font-weight: bold;">Найти профиль игрока</p>
+		</div>
+		<div class="form">
+		<form class="form" style="vertical-align: middle" method="POST" action="/searchplayer">
+        	<input class="input" name="username" type="text" placeholder="Введите ник">
+        	<input type="submit" value="Поиск" class="submit_button">
+		</form>
+		</div>
+    </div>
+
+    <div class="stats container">
+	
+
+        <div>
+			<i class="fas fa-circle" style="color: gray; font-size: 12px; margin-right: 3px"></i><span id="online_status" style="display: none">No</span>
+            <img src="https://i.imgur.com/rO3Hs5f.png" style="width: 25px; vertical-align: middle; margin-bottom: 1px; margin-right: 0px">
+            <p style="font-weight: bold;"> Owner</p>
+            <p style="margin-left: 5px; color: gray; font-size: 14px;">Легенда 1</p>
+        </div>
+
+        
+
+        <div class="rank_line">
+            <div class="inner_rank_line" style="width: 100%;"></div>
+            <div class="text_xp">1 728 256 / 1 800 000</div>
+        </div>
+
+    </div>
+
+    <div class="rating container">
+        <div class="title_container">Места в текущих рейтингах</div>
+        
+        <div>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Место</th>
+                    <th>Значение</th>
+                </tr>
+                <tr>
+                    <td>По опыту</td>
+                    <td>#0</td>
+                    <td>1 728 256</td>
+                </tr>
+                <tr>
+                    <td>Голдоловов</td>
+                    <td>#0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>По киллам</td>
+                    <td>#0</td>
+                    <td>25 309</td>
+                </tr>
+                <tr>
+                    <td>По эффективности</td>
+                    <td>#0</td>
+                    <td>0.77</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <div class="personal container">
+
+        
+
+        <div class="title_container">Личное дело</div>
+        <div style="width: 100%;">
+        <div class="table_left">
+            <table>
+                <tr>
+                    <td>Уничтожил</td>
+                    <td>25 309</td>
+                </tr>
+                <tr>
+                    <td>Подбит</td>
+                    <td>32 859</td>
+                </tr>
+                <tr>
+                    <td>У/П</td>
+                    <td>0.77</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="table_right">
+            <table>
+                <tr>
+                    <td>Группа</td>
+                    <td>Игрок</td>
+                </tr>
+                <tr>
+                    <td>Премиум</td>
+                    <td>Да</td>
+                </tr>
+                <tr>
+                    <td>Поймано золотых ящиков</td>
+                    <td>457</td>
+                </tr>
+
+            </table>
+        </div>
+        </div>
+    </div>
+
+    
+
+    <div class="garage">
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Смоки M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/smoky/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>228 200 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Рикошет M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/ricochet/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>238 600 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Да</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Гром M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/thunder/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>214 400 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Изида M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/isida/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>235 600 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Огнемет M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/flamethrower/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>232 150 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Фриз M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/frezee/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>239 400 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Молот M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/shotgun/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>223 900 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Шафт M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/shaft/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>231 300 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Вулкан M2
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/vulcan/m2/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M2</td>
+                            <td>82 700 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Твинс M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/twins/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>221 150 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Рельса M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/railgun/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>226 250 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Страйкер M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/turrets/rocketlauncher/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>217 150 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+    </div>
+
+	<div class="garage">
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Хантер M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/hulls/hunter/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td> <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Викинг M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/hulls/viking/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td> <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Титан M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/hulls/titan/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td> <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Васп M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/hulls/wasp/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td> <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Да</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Хорнет M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/hulls/hornet/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td> <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Диктатор M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/hulls/dictator/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td> <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Мамонт M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/hulls/mamont/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td> <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+    </div>
+
+	<div class="garage">
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Зелёный
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/green/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Праздник
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/holiday/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Звёзды и пламя
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/stars_and_flames/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Тина
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/tina/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>10 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Флоу
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/flow/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Глитч
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/glitch/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Скала
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/rock/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>15 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Кольчуга
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/chainmail/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>25 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Мэри
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/mary/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>65 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Прибой
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/surf/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>11 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Буря
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/storm/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>3 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Чужой
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/foreign/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>75 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Ржавчина
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/rust/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>12 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Дровосек
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/lumberjack/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>75 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Нефрит
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/nefrit/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>30 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Изумруд
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/izumurud/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>150 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Атом
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/atom/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>75 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Питон
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/python/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>50 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Мята
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/mint/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Иней
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/frost/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>455 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Хвоя
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/needles/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>60 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    LOL
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/lol/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Пустыня
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/desert/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>4 500 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Пиксель
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/pixel/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>25 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Лазурь
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/azure/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Без Фонарей
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/not_lantern/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Тигр
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/tiger/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>250 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Енот
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/racoon/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>105 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Продиджи
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/prodigy/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>50 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Ирбис
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/irbis/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>200 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Абстрактные Линии
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/abstract_lines/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Граффити
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/graffiti/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>125 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Зевс
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/zeus/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>250 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Спиннер
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/spinner/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Кошмар
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/nightmare/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Ягуар
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/jaguar/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>150 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Мегаполис
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/megapolis/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Хохлома
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/khokhloma/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>150 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Песчаник
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/standstone/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>6 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Тектонические Плиты
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/tectonic_plates/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Янтарь
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/amber/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Ледяной Вихрь
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/ice_flurry/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Лотос
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/lotus/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Марс
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/mars/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>45 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Землянин
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/earthling/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Скандинавия
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/scandinavia/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Оранж
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/orange/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>10 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Домино
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/domino/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Нано
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/nano/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>150 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Искра
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/spark/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>100 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Симбиот
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/symbiote/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Чудо-рыба
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/wonderfish/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Лепестки сирени
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/lilac_petals/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Фотон
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/photon/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Глюк
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/hallucination/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Мастера Паркура 2024
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/masterparkura2024/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Тайна Пришельцев
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/secret_of_the_aliens/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Аллея звёзд
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/allea_stars/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Инферно
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/inferno/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>220 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Премиум
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/premium/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Ютубер РТ
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/youtuber/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Гроза
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/lightning_storm/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Да</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Сингапур
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/singapore/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Сочельник
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/christmas_eve/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Спектр
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/spectr/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Африка
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/africa/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>200 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Зомби
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/zombie/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Красная Метка
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/red_marks/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Луноход
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/moonwalker/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Излом
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/fracture/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>30 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Сгущёнка
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/condensed_milk/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Пижама
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/pajamas/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Пикассо
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/picasso/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>50 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Галактика
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/galaxy/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Лайм
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/lime/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Кальмар
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/squid_fingers/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Блёстки
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/spangles/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Холодный покров
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/frigid_coat/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Вихрь
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/vortex/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>13 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Подарочная упаковка
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/gift_wrap/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Живая броня
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/livingarmor/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Нанолаборатория
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/nanohud/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Карбоновые звёзды
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/carbon_stars/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    E236
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/e236/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Костёр
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/campfire/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Туманность
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/alien_nebula/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Пейсли Пламя
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/paisley_flame/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Белый
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/white/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>50 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    -
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/sonar/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    -
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/soda/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    -
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/horror/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    -
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/retrowave/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    -
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/blue_lilac/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Океания
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/oceania/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    -
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/cathode_ray_tube/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    -
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/neon_geometry/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>- <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Красный
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/colormaps/red/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость</td>
+							
+                            <td>10 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+    </div>
+
+
+	<div class="garage">
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Дельфин M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/resistances/dolphin/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>250 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Гризли M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/resistances/grizzly/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>250 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Оцелот M1
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/resistances/ocelot/m1/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M1</td>
+                            <td>30 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Барсук M2
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/resistances/badger/m2/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M2</td>
+                            <td>100 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Да</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Лев M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/resistances/lion/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>250 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Волк M2
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/resistances/wolf/m2/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M2</td>
+                            <td>100 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Орёл M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/resistances/eagle/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>250 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Акула M1
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/resistances/shark/m1/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M1</td>
+                            <td>30 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Пантера M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/resistances/panther/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>250 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Да</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Паук M2
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/resistances/spider/m2/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M2</td>
+                            <td>100 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Да</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Сокол M3
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/resistances/falcon/m3/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td>Стоимость M3</td>
+                            <td>250 000 <img src="/public/images/cry.png" style="vertical-align: middle; margin-bottom: 2px;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Нет</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+    </div>
+	
+	<div class="garage">
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Гром XT
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/skins/thunder_xt/m0/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_g
+                    <table>
+                        <tr>
+                            <td style="width: 100%; white-space: nowrap;">Челлендж #1 - Январь 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Да</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    Хорнет XT
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/skins/hornet_xt/m0/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td style="width: 100%;  white-space: nowrap;">Челлендж #2 - Февраль 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Да</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+            <div class="garage_item">
+                <div class="title_garage_text">
+                    
+                </div>
+                <div class="garage_center_image">
+                    <img src="/public/images/skins/railgun_pr/m0/preview.png" class="garage_image">
+                </div>
+                <div class="bottom_garage_text">
+                    <table>
+                        <tr>
+                            <td style="width: 100%; white-space: nowrap;"></td>
+                        </tr>
+                        <tr>
+                            <td>Установленный</td>
+                            <td>Да</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        
+    </div>
+
+
+</div>
+
+</body>
+<script>
+const garages = document.querySelectorAll('.garage'); // Select all elements with class 'garage'
+
+garages.forEach(garage => {
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    garage.addEventListener('mousedown', (e) => {
+        isDown = true;
+        garage.classList.add('active'); // Optional for styling when dragging
+        startX = e.pageX - garage.offsetLeft;
+        scrollLeft = garage.scrollLeft;
+    });
+
+    garage.addEventListener('mouseleave', () => {
+        isDown = false;
+        garage.classList.remove('active'); // Optional to remove styling
+    });
+
+    garage.addEventListener('mouseup', () => {
+        isDown = false;
+        garage.classList.remove('active'); // Optional to remove styling
+    });
+
+    garage.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - garage.offsetLeft;
+        const walk = x - startX; // Multiply if you want to increase scrolling speed
+        garage.scrollLeft = scrollLeft - walk;
+    });
+});
+</script>
+</html>
